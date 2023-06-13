@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  /* height: 100%; */
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+.button{
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  border-radius: 100%;
+  border: none;
+  /* margin-top: 120px; */
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+    width: 365px;
+    font-size: 42px;
+    margin: 0;
+    padding: 0px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: end;
+    /* margin-left: 9px; */
+}
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 6px;
+
+}
+.btn{
+    background-color: #FF9F0A;
+    border: none;
+    color: white;
+}
+.btn1{
+    background-color: #343434;
+    color: white;
+}
+
+.btn2{
+    background-color: #A5A5A5;
+    color: black;
+}
+
+.first-heading{
+    color: white;
+    margin-left: 12px;
+}
+
+video.video-logo {
+    height: 75px;
+    width: -webkit-fill-available;
+}
+
+@media (max-width:1024px){
+    .first-heading{
+        margin-left: 0px !important;
+    }
+}
